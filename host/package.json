@@ -1,0 +1,14 @@
+{
+  "name": "porta-vm-host",
+  "version": "1.0.0",
+  "description": "Host server for safe VM sharing",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "ws": "^8.17.1",
+    "nat-upnp": "^1.1.1"
+  }
+}
